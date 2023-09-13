@@ -1,4 +1,4 @@
-"""abordado tipagem em Python, funções tipo set e range , list/array, dictionary, tuplas"""
+"""abordado tipagem em Python"""
 varbool= True
 varfloat=3.14159
 varint= 15
