@@ -3,9 +3,10 @@ curso=" Curso de Python "
 print ("variavel inicial :", curso)
 curso=curso.strip()
 print ("usando strip:\n", curso, "\n")
+cursoh=curso
 curso=curso.replace("Python","C#")
 curso=curso.upper()
 curso="alteração com upper, replace e concatenação dentro da variável:\n"+ curso
 print (curso)
-curso=curso.split(" ")
-print ("\nusando split: ", curso[2])
+cursoh=cursoh.split(" ")
+print ("\nusando split: ", cursoh[2])
