@@ -2,9 +2,9 @@ import os
 import time
 x='1'
 os.system ("cls")
-while x!='*' and '/' and '+' and '-':
+while x!='*' and x!='/' and x!='+' and x!='-':
     x=str(input("insira o operador:\n\t'*'  '/'  '+'  '-'\n"))
-    if x!='*' and '/' and '+' and '-':
+    if x!='*' and x!='/' and x!='+' and x!='-':
         os.system ("cls")
         print ("\t\tinsira um operador válido!\n")
 a=float(input("digite o primeiro operando\n"))
@@ -22,5 +22,5 @@ elif x=='/':
 elif x=='+':
     print ("\nresuldo =", (lambda q,w:w+q)(a,b))
 elif x=='-':
-    print ("\nresuldo =", (lambda q,w:w-q)(a,b))
+    print ("\nresultado =", (lambda q,w:w-q)(a,b))
 print ("\n\nfim_alg\n")
