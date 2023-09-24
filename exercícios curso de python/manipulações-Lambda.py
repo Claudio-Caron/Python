@@ -2,9 +2,9 @@ import os
 import time
 x='1'
 os.system ("cls")
-while x!='*' or '/' or '+' or '-':
+while x!='*' and '/' and '+' and '-':
     x=str(input("insira o operador:\n\t'*'  '/'  '+'  '-'\n"))
-    if x!='*' or '/' or '+' or '-':
+    if x!='*' and '/' and '+' and '-':
         os.system ("cls")
         print ("\t\tinsira um operador válido!\n")
 a=float(input("digite o primeiro operando\n"))
