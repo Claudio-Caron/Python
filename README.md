@@ -1,2 +1,2 @@
 # Python
- repositório para exercícios delinguagem python.
+ repositório para exercícios de linguagem python.
