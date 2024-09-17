@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d57ff6b3-57aa-42fc-b568-43bab21158dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Jogo/BackGround.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jogo/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/I Know You are Out There.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ImagemInteiroZumb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ImagemInteiroZumbInvertido.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ImagemInteriroCav.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ZumbiAndando9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Imagens/ninja .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/Jogador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jogo/Jogador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo/mixkit-player-jumping-in-a-video-game-2043.wav" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2mDRooY7IEnXT0izz4yxS5klrAi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/claud/OneDrive/Área de Trabalho/Programação/Linguagens-programação/Python"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d57ff6b3-57aa-42fc-b568-43bab21158dc" name="Changes" comment="" />
+      <created>1726609337789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726609337789</updated>
+    </task>
+    <servers />
+  </component>
+</project>

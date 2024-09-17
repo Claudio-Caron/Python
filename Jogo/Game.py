@@ -2,7 +2,8 @@ import pygame
 from pygame.locals import *
 from sys import exit
 from Const  import *
-from Personagens import Jogador, Inimigo
+from J import *
+from I import * 
 
 class Jogo:
     def __init__(self):
@@ -21,13 +22,14 @@ class Jogo:
         self.fonte = pygame.font.SysFont(FONTE, TAMANHO_FONTE, NEGRITO, ITALICO)
         self.pontos = 0
 
-        # Carregar imagem de fundo
+        # Carregar imagem
+        #self.Jogador_direita = pygame
         self.imagem_fundo = pygame.image.load(IMAGEM_FUNDO)
         self.tamanho = pygame.transform.scale(self.imagem_fundo, (LARGURA, ALTURA))
 
         # Jogador e inimigo
-        self.jogador = Jogador()
-        self.inimigo = Inimigo()
+        self.jogador = Jogador(LARGURA, ALTURA)
+        self.inimigo = Inimigo(LARGURA, ALTURA)
 
         # Clock
         self.clock = pygame.time.Clock()
@@ -44,11 +46,12 @@ class Jogo:
                     exit()
 
             # Movimentação e colisão
-            self.jogador.mover()
-            ret_jogador = self.jogador.desenhar(self.window)
-            ret_inimigo = self.inimigo.desenhar(self.window)
+            self.jogador.mover(self.window)
+            self.ret_jogador = self.jogador.desenhar(self.window)
+            
+            self.ret_inimigo = self.inimigo.desenhar(self.window)
 
-            if ret_jogador.colliderect(ret_inimigo):
+            if self.ret_jogador.colliderect(self.ret_inimigo):
                 self.inimigo.resetar_posicao()
                 self.pontos += 1
                 self.som_colisao.play()
