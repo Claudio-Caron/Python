@@ -56,8 +56,8 @@ class Jogador:
         self.sprite_esquerda_quadro+=1
         if self.sprite_esquerda_quadro >= len(self.sprite_esquerda):
             self.sprite_esquerda_quadro=0
-        #self.sprite_esquerda = 
-    def desenhar(self, window):
+        
+    def desenharParado(self, window):
         ret_rosa = pygame.draw.rect(window, self.cor, (self.x, self.y, 40, 50))
         return ret_rosa
         

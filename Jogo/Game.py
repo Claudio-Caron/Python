@@ -26,7 +26,7 @@ class Jogo:
     
         self.jogador = Jogador(LARGURA, ALTURA)
         self.inimigo = Inimigo(LARGURA, ALTURA)
-      
+        
         self.clock = pygame.time.Clock()
 
     def rodar(self):
@@ -42,7 +42,7 @@ class Jogo:
 
            
             self.jogador.mover(self.window)
-            self.ret_jogador = self.jogador.desenhar(self.window)
+            self.ret_jogador = self.jogador.desenharParado(self.window)
             
             self.ret_inimigo = self.inimigo.desenhar(self.window)
 
